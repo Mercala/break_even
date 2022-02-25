@@ -17,7 +17,7 @@ h3 = 16
 fontname = 'monospace'
 
 # Investment
-fixed_costs = st.sidebar.number_input("Total investment (in Afl.)", value=150_000)
+fixed_costs = st.sidebar.number_input("Total investment (in Afl.)", value=150_000, step=10_000)
 # Depreciation schedule
 years = st.sidebar.number_input("Depreciation schedule (in years)", value=10)
 
