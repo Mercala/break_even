@@ -28,7 +28,7 @@ variables = {
         "value": 10
     },
     "sales_price": {
-        "text": "Sales price (in Afl.)",
+        "text": "Sales price per Liter (in Afl.)",
         "value": 1.30,
     },
     "total_costs": {
